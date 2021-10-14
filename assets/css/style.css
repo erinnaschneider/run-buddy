@@ -483,38 +483,6 @@ section {
     }
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-
-@media screen and (max-width: 575px) {
- .hero-form button {
-     width: 100%;
- }   
-
- .section-title {
-     width: 95%;
- }
-
- .intro p {
-     width: 100%;
- }
-
-.trainer {
-    flex: 0 100%;
-}
-
-.contact-info {
-    text-align: center;
-}
-
-.contact info > * {
-    flex: 0 100%;
-}
-
-.contact-form {
-    order: 3;
-}
-}
-
 .checkbox-wrapper input, .radio-wrapper input {
     opacity: 0;
 }
@@ -574,3 +542,36 @@ section {
 .radio-wrapper input:checked + label::after {
   content: "";
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+ .hero-form button {
+     width: 100%;
+ }   
+
+ .section-title {
+     width: 95%;
+ }
+
+ .intro p {
+     width: 100%;
+ }
+
+.trainer {
+    flex: 0 100%;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact info > * {
+    flex: 0 100%;
+}
+
+.contact-form {
+    order: 3;
+}
+}
+
